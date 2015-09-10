@@ -1,0 +1,149 @@
+/*
+	Theme Name: CG Materialize
+	Description: This is a material theme created for the Genesis Framework
+	Author: StudioPress
+	Author URI: http://www.clickgiant.com/
+	Version: 2.0.1
+
+	Tags: black, orange, white, one-column, two-columns, three-columns, fixed-width, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+
+	Template: genesis
+	Template Version: 2.0.1
+
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php
+*/
+
+
+/* Table of Contents
+
+	- HTML5 Reset
+		- Baseline Normalize
+		- Box Sizing
+		- Float Clearing
+	- Defaults
+		- Typographical Elements
+		- Headings
+		- Objects
+		- Forms
+		- Tables
+	- Structure and Layout
+		- Site Containers
+		- Column Widths and Positions
+		- Column Classes
+	- Common Classes
+		- WordPress
+		- Genesis
+		- Titles
+	- Widgets
+		- Featured Content
+	- Plugins
+		- Genesis eNews Extended
+		- Genesis Latest Tweets
+		- Gravity Forms
+		- Jetpack
+	- Site Header
+		- Title Area
+		- Widget Area
+	- Site Navigation
+		- Header Navigation
+		- Primary Navigation
+		- Secondary Navigation
+	- Content Area
+		- Entries
+		- Pagination
+		- Comments
+	- Sidebars
+	- Footer Widgets
+	- Site Footer
+	- Media Queries
+		- max-width: 1139px
+		- max-width: 1023px
+		- max-width: 767px
+
+*/
+
+@import "genesis/genesis-variables";
+@import "genesis/genesis-mixins";
+
+/*
+HTML5 Reset
+---------------------------------------------------------------------------------------------------- */
+@import "base/reset";
+
+
+/*
+Defaults
+---------------------------------------------------------------------------------------------------- */
+@import "genesis/defaults";
+
+@import "base/wordpress";
+
+
+/*
+Structure and Layout
+---------------------------------------------------------------------------------------------------- */
+@import "genesis/structure-layout";
+
+@import "base/gridism";
+
+
+/*
+Common Classes
+---------------------------------------------------------------------------------------------------- */
+@import "genesis/common-classes";
+
+
+/*
+Widgets
+---------------------------------------------------------------------------------------------------- */
+@import "genesis/widgets";
+
+
+/* Gravity Forms
+--------------------------------------------- */
+@import "genesis/gravity-forms";
+
+
+/*
+Site Header
+---------------------------------------------------------------------------------------------------- */
+@import "genesis/site-header";
+
+
+/*
+Site Navigation
+---------------------------------------------------------------------------------------------------- */
+@import "genesis/site-navigation";
+
+
+/*
+Content Area
+---------------------------------------------------------------------------------------------------- */
+@import "genesis/content-area";
+
+
+/*
+Sidebars
+---------------------------------------------------------------------------------------------------- */
+@import "genesis/sidebars";
+
+/*
+Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+@import "genesis/footer-widgets";
+
+
+/*
+Site Footer
+---------------------------------------------------------------------------------------------------- */
+@import "genesis/site-footer";
+
+/*
+Styling
+---------------------------------------------------------------------------------------------------- */
+
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+@import "genesis/media-queries";
